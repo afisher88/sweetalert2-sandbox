@@ -30,7 +30,8 @@ module.exports = {
             presets: ['@babel/preset-env', '@babel/preset-react'],
             plugins: [
               '@babel/plugin-proposal-object-rest-spread',
-              '@babel/transform-spread'
+              '@babel/transform-spread',
+              '@babel/plugin-proposal-class-properties'
             ]
           }
         }
@@ -38,9 +39,8 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-          {
-            loader: MiniCssExtractPlugin.loader
-          },
+          'css-hot-loader',
+          MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader'
         ]
