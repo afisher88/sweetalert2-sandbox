@@ -1,8 +1,6 @@
 # sweetalert2-sandbox
 Test with IE11
 
-npm install
-
-npm run dev
-
-localhost:8080
+1. `npm install`
+2. `npm run dev`
+3. `localhost:8080`
