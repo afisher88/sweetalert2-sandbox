@@ -1,2 +1,2 @@
-# react-start
-Forkable start for React sandboxing
+# sweetalert2-sandbox
+Test with IE11
